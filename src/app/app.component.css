@@ -1,0 +1,17 @@
+.nav-bg {
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+.nav-bg a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2ms;
+    padding: 0 5px;
+}
+
+.nav-bg a:hover {
+    transform: scale(1.1, 1.1);
+}
