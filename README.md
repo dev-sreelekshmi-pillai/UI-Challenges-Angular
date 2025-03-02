@@ -26,3 +26,10 @@ This repository is not a full-fledged Angular application but rather a collectio
     
 🌍 Live Demo
 🚀 Check out the live version here: (https://dev-sreelekshmi-pillai.github.io/UI-Challenges-Angular/)
+
+**Getting 404 error as browser folder was created inside dist and caused issue in publishing the web page.
+SSR rendering was enabled so made changes in angular.json :
+(https://stackoverflow.com/questions/77874370/is-there-a-reason-my-dist-folder-is-generating-like-this-in-angular-build)
+
+SPA routing not supported in github page - Used HashRouting in
+(https://github.com/orgs/community/discussions/64096)**
