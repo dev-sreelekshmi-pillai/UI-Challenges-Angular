@@ -1,27 +1,28 @@
-# UiChallenges
+🌟 UI Challenges - Angular Project
+Welcome to the UI Challenges repository! 🎨✨ This project is built using Angular and contains multiple UI challenges, each designed to improve frontend skills and creativity.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+🚀 Project Overview
+This repository is not a full-fledged Angular application but rather a collection of UI challenges implemented using Angular. Currently, it includes:
 
-## Development server
+✅ Three UI Challenges
+✅ Navigation Page to switch between challenge pages  
+✅ Last challenge: A mobile page for a coffee-themed UI  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+🎯 Challenges Implemented
+  
+  1️⃣ Challenge 1: [Brief Description]
+    🖌️ [What does it do?]
+    📱 Responsive? Yes/No
+    🛠️ Tech Used: HTML, CSS, Angular
+    
+  2️⃣ Challenge 2: [Brief Description]
+    🖌️ [What does it do?]
+    📱 Responsive? Yes/No
+    🛠️ Tech Used: HTML, CSS, Angular
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  3️⃣ Challenge 3: Mobile UI Challenge: Coffee Page
+    ☕ Created a mobile-friendly coffee shop page
+    🛠️ Tech Used: HTML, CSS, Bootstrap
+    
+🌍 Live Demo
+🚀 Check out the live version here: (https://dev-sreelekshmi-pillai.github.io/UI-Challenges-Angular/)
