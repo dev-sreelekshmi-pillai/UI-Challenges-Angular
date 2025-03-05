@@ -76,15 +76,17 @@
 }
 
 .fill {
-    font-variation-settings:
+    /* font-variation-settings:
         'FILL' 1,
         'wght' 500,
         'GRAD' 200,
-        'opsz' 20
+        'opsz' 20; */
+    margin-right: 3px;
 }
 
 .no-fill {
     color: #dbd3d1;
+
 }
 
 
@@ -126,13 +128,6 @@
 .order-btn {
     width: 9rem;
     border-radius: 27px;
-}
-
-.align-details {
-    display: flex;
-    height: 6.8rem;
-    align-items: flex-end;
-    margin-bottom: 15px;
 }
 
 .size-price {

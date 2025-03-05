@@ -23,3 +23,140 @@ body {
         'GRAD' 200,
         'opsz' 20
 }
+
+
+.page-background {
+    font-family: serif;
+    background-color: #e9eaee;
+    height: calc(97vh - var(--padding-20));
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card-page {
+    width: 100%;
+    height: 100%;
+}
+
+.card-image {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    --bs-card-inner-border-radius: 0;
+}
+
+.prev-page-btn {
+    align-self: center;
+    color: beige;
+    border: none;
+}
+
+.overlay-bg {
+    padding: 0;
+    height: 30%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 40%, rgba(230, 16, 16, 0) 100%);
+}
+
+.image {
+    height: 28vh;
+    position: relative;
+}
+
+.overlay-left {
+    left: -5px;
+}
+
+.overlay-right {
+    left: 179px;
+    /* right: -16px; */
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.flex-align {
+    display: flex;
+}
+
+.fill {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 500,
+        'GRAD' 200,
+        'opsz' 20
+}
+
+.no-fill {
+    color: #dbd3d1;
+}
+
+
+.item-desc {
+    font-size: 13px;
+    padding: 15px 5px;
+    color: #ab9195;
+
+}
+
+.size-btn {
+    background-color: white;
+    border: 1px solid rgb(83 48 40);
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+    text-align: center;
+    color: rgb(83 48 40);
+    font-size: 17px;
+}
+
+.card-subtitle {
+    font-size: 1.05rem;
+}
+
+.bg-color {
+    background-color: rgb(83 48 40);
+    color: white;
+}
+
+.order-btn {
+    width: 9rem;
+    border-radius: 27px;
+}
+
+.align-details {
+    display: flex;
+    height: 6.8rem;
+    align-items: flex-end;
+    padding-bottom: 25px;
+}
+
+.size-price {
+    font-size: 1rem;
+}
+
+.size-amount {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.margin-title {
+    margin: 4px 6px;
+}
+
+.number-style {
+    background-color: white;
+    border: none;
+    cursor: auto
+}
