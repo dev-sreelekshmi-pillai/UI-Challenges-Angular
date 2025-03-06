@@ -1,13 +1,3 @@
-.page-background {
-    font-family: serif;
-    background-color: #e9eaee;
-    height: calc(97vh - var(--padding-20));
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .center-element {
 
     min-height: 82vh;

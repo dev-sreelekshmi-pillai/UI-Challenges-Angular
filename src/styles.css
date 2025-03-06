@@ -16,26 +16,15 @@ body {
     --padding-20: 20px;
 }
 
-.material-symbols-rounded {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 500,
-        'GRAD' 200,
-        'opsz' 20
-}
-
-
 .page-background {
     font-family: serif;
     background-color: #e9eaee;
-    height: calc(97vh - var(--padding-20));
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 
 .card-page {
     width: 100%;
