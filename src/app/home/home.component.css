@@ -1,0 +1,15 @@
+.card-challenge {
+    text-align: center;
+    height: 10rem;
+    width: 12rem;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.home-align-center {
+    height: 100%;
+    /* margin: auto; */
+    align-content: center;
+    justify-items: center;
+}
