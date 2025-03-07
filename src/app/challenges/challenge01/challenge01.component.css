@@ -1,0 +1,273 @@
+.card-img-overlay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+.back-icon {
+    color: black;
+    font-size: 12px;
+    font-weight: 600 !important;
+}
+
+.save-icon {
+    font-size: 9px;
+    color: #f36d72;
+}
+
+
+.back-button {
+    display: flex;
+    border-radius: 18px;
+    background: #ffffff8f;
+    padding: 0px 3px
+}
+
+
+.back-button:active {
+    color: black;
+    background-color: #ffffff8f;
+}
+
+
+.transparent-bg {
+    display: flex;
+    padding: 3px 5px;
+    border-radius: 18px;
+    background: #ffffff8f;
+}
+
+.card-body {
+    overflow: hidden;
+    height: 50%;
+    background-color: white;
+    border-top-right-radius: 26px;
+    border-top-left-radius: 26px;
+    background-color: white;
+    margin: -18px 0px;
+    z-index: 10;
+    overflow: hidden;
+    height: 50%;
+    color: #a4a9b5;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card-image {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    --bs-card-inner-border-radius: 0;
+}
+
+.item-title {
+    color: black;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.image {
+    height: 50%;
+    position: relative;
+}
+
+.card-page {
+    box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+    font-size: 13px;
+}
+
+.padding {
+    font-size: 1.3rem;
+    padding: 0.2rem 0rem;
+    color: white;
+}
+
+.event-live {
+    align-items: center;
+    padding: 13px;
+    display: flex;
+    z-index: 10;
+    height: 3.5rem;
+    width: 15.5rem;
+    background-color: #fefeff;
+    position: absolute;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 86%;
+    left: 11%;
+}
+
+/* .item-title {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+} */
+
+.center-element {
+    height: 90vh;
+    width: 20rem;
+}
+
+.footer {
+    padding: 9px;
+    align-content: end;
+    text-align: center;
+    height: 10%;
+    z-index: 1;
+    background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0.9) 80%, rgba(255, 255, 255, 0.5) 100%);
+}
+
+.prof-img {
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+}
+
+.live-icon {
+    border: 2px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin-left: -13px;
+}
+
+.live-icon:first-child {
+    margin: 0px;
+    z-index: 1;
+}
+
+.live-icon:nth-child(3) {
+    z-index: -1;
+}
+
+.icon-style {
+    height: 15px;
+    align-content: center;
+    margin-right: 4px;
+}
+
+.icon-style::before {
+    font-size: 18px;
+}
+
+.icon-color {
+    /* background-color: #ebedff; */
+    color: #ee684a;
+}
+
+.flex-align {
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.flex-align>p {
+    font-size: 13.5px;
+    margin: 0 8px 0px 0px;
+    font-weight: 500;
+}
+
+.subtitle {
+    font-size: 13px;
+}
+
+.follow-btn {
+    width: 3rem;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.image-profile {
+    display: flex;
+}
+
+.text-live {
+    color: #5669ff;
+    padding: 6px;
+}
+
+.event-details {
+    margin-top: 12px;
+}
+
+.btn-trip {
+    background-color: #f36d72;
+    border: none;
+    width: 80%;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.fill {
+    margin-right: 7px;
+    color: #ee684a;
+    font-size: 10px;
+}
+
+.nav-item>a {
+    font-size: 13px;
+    color: #a4a9b5;
+}
+
+.nav-link.active {
+
+    border: 2px #f36d72;
+    border-bottom: none;
+}
+
+.custom-tabs .nav-link {
+    border: 1px solid transparent;
+    border-bottom: none;
+}
+
+.custom-tabs .nav-link.active {
+    border: 2px solid red;
+    border-bottom: none;
+    background-color: white;
+    color: red;
+}
+
+.custom-tabs .nav-link:hover {
+    color: red;
+}
+
+.tab-align {
+    margin-top: 20px;
+}
+
+.desc-style {
+    text-align: justify;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.desc-style>a {
+    text-decoration: none;
+    color: #ee684a;
+}
+
+
+@media screen and (min-height: 990px) {
+    .center-element {
+        height: 800px;
+        /* Fix height when screen height is greater than 990px */
+    }
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: #333;
+    /* Dark gray for readability */
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+button,
+nav a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}

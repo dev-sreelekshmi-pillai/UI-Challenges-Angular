@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@fontsource/lora';
+@import '@fontsource/poppins';
+@import '@fontsource/quicksand';
+@import '@fontsource/baloo-2';
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -31,12 +36,7 @@ body {
     height: 100%;
 }
 
-.card-image {
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-    --bs-card-inner-border-radius: 0;
-}
+
 
 .prev-page-btn {
     align-self: center;
@@ -76,14 +76,6 @@ body {
 
 .flex-align {
     display: flex;
-}
-
-.fill {
-    font-variation-settings:
-        'FILL' 1,
-        'wght' 500,
-        'GRAD' 200,
-        'opsz' 20
 }
 
 .no-fill {

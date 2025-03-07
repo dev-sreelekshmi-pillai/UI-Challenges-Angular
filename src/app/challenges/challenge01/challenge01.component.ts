@@ -8,9 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './challenge01.component.css'
 })
 export class Challenge01Component {
-  message = '';
 
-  handleClick() {
-    this.message = 'Button Clicked!';
-  }
 }

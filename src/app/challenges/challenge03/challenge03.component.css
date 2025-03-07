@@ -66,17 +66,11 @@
 }
 
 .fill {
-    /* font-variation-settings:
-        'FILL' 1,
-        'wght' 500,
-        'GRAD' 200,
-        'opsz' 20; */
     margin-right: 3px;
 }
 
 .no-fill {
     color: #dbd3d1;
-
 }
 
 

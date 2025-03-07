@@ -7,10 +7,6 @@
 
 .card-body {
     overflow: scroll;
-}
-
-.card-body {
-    overflow: scroll;
     margin-top: 0.75rem;
     top: 20px;
     position: relative;
@@ -27,6 +23,13 @@
 
 .card-page {
     overflow: hidden;
+}
+
+.card-image {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    --bs-card-inner-border-radius: 0;
 }
 
 .padding {
@@ -64,7 +67,7 @@
     padding: 9px;
     align-content: end;
     text-align: center;
-    height: 15%;
+    height: 15vh;
     z-index: 1;
     background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0.9) 80%, rgba(255, 255, 255, 0.5) 100%);
 }
@@ -127,6 +130,11 @@
 
 .image-profile {
     display: flex;
+}
+
+.image {
+    height: 28vh;
+    position: relative;
 }
 
 .text-live {

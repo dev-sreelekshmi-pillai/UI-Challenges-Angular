@@ -9,6 +9,7 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -47,9 +48,11 @@
             "development": {
               "optimization": true,
               "extractLicenses": false,
-              "sourceMap": true,
+              "sourceMap": false,
               "vendorChunk": false,
-              "namedChunks": false
+              "namedChunks": false,
+              "buildOptimizer": true,
+              "aot": true
             }
           },
           "defaultConfiguration": "production"
@@ -64,7 +67,10 @@
               "buildTarget": "ui-challenges:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "options": {
+            "hmr": true
+          }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
