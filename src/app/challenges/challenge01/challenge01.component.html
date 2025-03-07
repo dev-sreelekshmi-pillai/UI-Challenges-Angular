@@ -1,5 +1,151 @@
-<div class="card">
-  <h2>Challenge 01: Interactive Button</h2>
-  <button (click)="handleClick()">Click Me</button>
-  <p>{{ message }}</p>
+<!-- Page background CSS styling -->
+<div class="page-background">
+  <!-- To center the card element and for applying CSS styling -->
+  <div class="center-element">
+    <!-- Card -->
+    <div class="card card-page">
+      <div class="image">
+        <img
+          class="card-image card-img-top"
+          src="./assets/travel-img.webp"
+          alt="Band Concert"
+        />
+        <div class="overlay-bg card-img-overlay">
+          <div class="card-img-overlay">
+            <!-- <div class="details"> -->
+            <div class="prev-page-btn back-button btn" style="">
+              <i class="back-icon bi bi-chevron-left"></i>
+              <!-- </div> -->
+            </div>
+
+            <div
+              class="prev-page-btn btn transparent-bg"
+              style="background-color: #ffffff"
+            >
+              <i class="bi bi-bookmark-fill save-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <h6 class="card-title item-title" style="font-size: 20px">
+          <b>Raja Ampat Islands</b>
+        </h6>
+        <div class="location flex-align">
+          <i class="bi bi-geo-alt-fill icon-style icon-color"></i>
+          <div class="text-body-secondary subtitle">
+            Raja Ampat, Papua Barat
+          </div>
+        </div>
+        <div class="flex-align">
+          <p>4.8</p>
+          <i class="bi bi-star-fill fill"></i>
+          <i class="bi bi-star-fill fill"></i>
+          <i class="bi bi-star-fill fill"></i>
+          <i class="bi bi-star-fill fill"></i>
+          <i class="bi bi-star-fill fill"></i>
+        </div>
+        <!-- Different tab About, Review, Photo, Video -->
+        <div class="tab-align">
+          <ul class="nav nav-tabs custom-tabs">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                data-bs-toggle="tab"
+                aria-current="page"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                aria-current="page"
+                href="#review"
+                >Review</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                aria-current="page"
+                href="#photo"
+                >Photo</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                aria-current="page"
+                href="#video"
+                >Video</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="event-details tab-content mt-3">
+          <div class="tab-pane fade show active" id="about">
+            <p class="card-title item-title" style="font-size: 17px">
+              <b>About Event</b>
+            </p>
+            <p class="card-text desc-style">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu amet
+              tempor, in massa, habitasse habitasse fermentum, sed faucibus.
+              Augue arcu, ac proin accumsan urna morbi diam nunc, tincidunt. Ac
+              turpis amet vitae dui aliquam vitae nunc. Non enim, lorem duis
+              maecenas odio
+              <a href="javascript:void(0)">Read More</a>
+            </p>
+          </div>
+          <div class="tab-pane fade show" id="review">
+            <p class="card-title item-title" style="font-size: 17px">
+              <b>About Review</b>
+            </p>
+            <p class="card-text desc-style">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu amet
+              tempor, in massa, habitasse habitasse fermentum, sed faucibus.
+              Augue arcu, ac proin accumsan urna morbi diam nunc, tincidunt. Ac
+              turpis amet vitae dui aliquam vitae nunc. Non enim, lorem duis
+              maecenas odio
+              <a href="javascript:void(0)">Read More</a>
+            </p>
+          </div>
+          <div class="tab-pane fade show" id="photo">
+            <p class="card-title item-title" style="font-size: 17px">
+              <b>About Photo</b>
+            </p>
+            <p class="card-text desc-style">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu amet
+              tempor, in massa, habitasse habitasse fermentum, sed faucibus.
+              Augue arcu, ac proin accumsan urna morbi diam nunc, tincidunt. Ac
+              turpis amet vitae dui aliquam vitae nunc. Non enim, lorem duis
+              maecenas odio
+              <a href="javascript:void(0)">Read More</a>
+            </p>
+          </div>
+          <div class="tab-pane fade show" id="video">
+            <p class="card-title item-title" style="font-size: 17px">
+              <b>About Video</b>
+            </p>
+            <p class="card-text desc-style">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu amet
+              tempor, in massa, habitasse habitasse fermentum, sed faucibus.
+              Augue arcu, ac proin accumsan urna morbi diam nunc, tincidunt. Ac
+              turpis amet vitae dui aliquam vitae nunc. Non enim, lorem duis
+              maecenas odio
+              <a href="javascript:void(0)">Read More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div>
+          <button class="btn btn-primary btn-trip">Save a Trip</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
