@@ -6,6 +6,7 @@
 }
 
 .card-body {
+    height: 65%;
     overflow: scroll;
     margin-top: 0.75rem;
     top: 20px;
@@ -59,7 +60,7 @@
 }
 
 .center-element {
-    height: 90vh;
+    height: 685px;
     width: 20rem;
 }
 
@@ -67,7 +68,7 @@
     padding: 9px;
     align-content: end;
     text-align: center;
-    height: 15vh;
+    height: 10%;
     z-index: 1;
     background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0.9) 80%, rgba(255, 255, 255, 0.5) 100%);
 }
@@ -133,7 +134,7 @@
 }
 
 .image {
-    height: 28vh;
+    height: 35%;
     position: relative;
 }
 
