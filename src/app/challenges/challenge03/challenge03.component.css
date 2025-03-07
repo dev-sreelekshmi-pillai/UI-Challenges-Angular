@@ -1,6 +1,6 @@
 .center-element {
 
-    min-height: 82vh;
+    height: 600px;
     width: 19rem;
     padding: 2px;
     /* margin: auto; */
@@ -36,7 +36,7 @@
 }
 
 .image {
-    height: 28vh;
+    height: 35%;
     position: relative;
 }
 

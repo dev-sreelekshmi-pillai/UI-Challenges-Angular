@@ -48,7 +48,7 @@
     margin: -18px 0px;
     z-index: 10;
     overflow: hidden;
-    height: 50%;
+    height: 360px;
     color: #a4a9b5;
     font-family: 'Quicksand', sans-serif;
 }
@@ -66,7 +66,7 @@
 }
 
 .image {
-    height: 50%;
+    height: 350px;
     position: relative;
 }
 
@@ -102,15 +102,16 @@
 } */
 
 .center-element {
-    height: 90vh;
-    width: 20rem;
+    height: 670px;
+    width: 340px;
 }
 
 .footer {
+    margin: 20px 0px 2px 0px;
     padding: 9px;
     align-content: end;
     text-align: center;
-    height: 10%;
+    height: 70px;
     z-index: 1;
     background: linear-gradient(to top, white 0%, rgba(255, 255, 255, 0.9) 80%, rgba(255, 255, 255, 0.5) 100%);
 }
@@ -193,6 +194,7 @@
     width: 80%;
     border-radius: 10px;
     font-weight: 600;
+    height: 80%;
 }
 
 .fill {
@@ -241,14 +243,6 @@
 .desc-style>a {
     text-decoration: none;
     color: #ee684a;
-}
-
-
-@media screen and (min-height: 990px) {
-    .center-element {
-        height: 800px;
-        /* Fix height when screen height is greater than 990px */
-    }
 }
 
 body {
